@@ -13,6 +13,8 @@ public class Calculator {
     }
 
     public int divide(int a, int b) {
+         if (b == 0)
+            Sytem.out.println("Error: Division by zero");
         return a / b;
     }
 
